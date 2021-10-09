@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <title>hactober.com</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <style>
+            .menu{
+                background-color:black;
+                display:grid;
+                grid-template-columns: 10% 80% 5%;
+                height: 90px;
+                align-items: center;
+                position: sticky;
+                
+                
+            }
+            .search input{
+                height: 55px;
+                width: 80%;
+                border-radius: 30px;
+                text-align: center;
+                box-shadow: 2px 2px 5px 3px rgb(82, 80, 80),2px 2px 5px 6px orange;
+            
+            }
+            .search{
+                margin-left: 153px;
+            }
+            .logo{
+                color: rgb(224, 104, 17);
+            }
+            .profile{
+                color:rgb(170, 155, 155);
+                margin-left: 95px;
+            }
+            .menu-box {
+                display: grid;
+                grid-template-columns: 17% 17% 17% 17% 17% 15%;
+                color: orange;
+                margin-top: 30px;
+                background-color: rgb(43, 39, 39);
+                font-size: 20px;
+                font-weight:bold;
+                height:70px;
+                align-items: center;
+                justify-items: center;
+                position: sticky;
+                
+            }
+            .lsidebar{
+                height:600px;
+                text-align: center;
+                border-right: 2px solid white;
+            }
+            .main{
+                background-color:aliceblue;
+                border:2px solid black;
+                height:600px
+                
+
+            }
+            .rsidebar{
+                height: 600px;
+                border-left: 2px solid white;
+                
+            }
+            .body{
+                display: grid;
+                grid-template-columns: 2fr 6fr 2fr;
+            }
+            .main img{
+                height:100%;
+                width:100%;
+            }
+            .lsidebar a{
+                color: aliceblue;
+                text-decoration: none;
+                font-size: 20px;
+                border: 2px solid grey;
+                height:10px
+            }
+            .lsidebar div{
+                height:50px;
+                margin-top: 10px;
+            }
+            .rsidebar form{
+                color:white;
+                font-size: 20px;
+                
+            }
+            .rsidebar div{
+                height:70px;
+                margin-top: 20px;
+                text-align: center;
+                
+            
+
+            }
+            .rsidebar form input{
+                height:40px;
+                width:200px;
+                margin-left: 5px;
+                border-radius: 10px;
+            }
+            .footer{
+                background-color: rgba(78, 73, 50, 0.774);
+                height:80px;
+                display: grid;
+                grid-template-columns: 50% 50% ;
+
+            }
+            .social-media{
+                width:100%;
+                color:#fff;
+                text-align:center;
+            }
+            .social-media a{
+                text-decoration: none;
+            }
+            .social-media i{
+                height:15px;
+                width: 15px;
+                margin: 20px 5px;
+                padding: 10px;
+                color: rgb(143, 91, 14);
+                border-radius: 50%;
+                border:1px solid grey;
+            }
+            .social-media i:hover{
+                background:orange;
+            }
+            
+
+            
+            
+            
+
+        </style>
+
+    </head>
+    <body style="background-color: black;">
+        <div class="menu">
+            <div class="logo"><img src="https://cdn.shopify.com/s/files/1/0380/4679/3861/products/AnonymousMaskpicture2_grande.jpg?v=1614342825" width="90px" height="90px" title="HackTheTool"><div><b>HackTheTool</b></div></div>
+            <div class="search"><input type="search" placeholder="Search Your Choice......."></div>
+            <div class="profile"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD5iROb1TgJ_rcl-6r-68v1yjtID052zxSkw&usqp=CAU" height="50px" width="50px"><div><b>Account</b></div></div>
+        </div>
+        <div class="menu-box">
+            <div>Home</div>
+            <div>Contact</div>
+            <div>Tutorial</div>
+            <div>Labs</div>
+            <div>Competition</div>
+            <div>Paid Courses</div>
+
+        </div>
+        <div class="body">
+            <div class="lsidebar">
+                    <div><a href="">Html</a></div>
+                    <div><a href="">Css</a></div>
+                    <div><a href="">Javascript</a></div>
+                    <div><a href="">Python</a></div>
+                    <div><a href="">Machine Learning</a></div>
+                    <div><a href="">Data Science</a></div>
+                    <div><a href="">Ds&Algo</a></div>
+                    <div><a href="">Operating System</a></div>
+                    <div><a href="">Database</a></div>
+                    <div><a href="">Compiler Design</a></div>
+
+            </div>
+            <div class="main"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6RSOf1q29htGyxQ0_nfEnJcZP-eTx8mbjfg&usqp=CAU"></div>
+            <div class="rsidebar">
+                <div style="color:rgba(248, 115, 7, 0.76);font-size: 30px;font-weight: bold;text-align: center;">Intern With Us</div>
+                <div><form action="" method="">
+                    <div><label>Name</label><input type="text"><br></div>
+                    <div><label>Email</label><input type="email"><br></div>
+                    <div><label>Skills</label><input type="text" rows="20" cols="20"><br></div>
+                    <div><label>Experience</label><input type="text" rows="20" cols="20"><br></div>
+                    <div><label>Upload Documents</label><input type="file" accept="*"></div>
+
+                </form></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div style="color: orange;margin-top: 25px;">© 2013 - 2021 HackTheTool. All rights reserved</div>
+            <div class="social-media">
+                <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href=""><i class="fas fa-envelope-square" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+    </body>
+</html>
